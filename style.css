@@ -60,9 +60,11 @@ h4, button {
 #feature, #video, #cards {
   padding-top: 50px;
 }
-#video {
+iframe#video {
   display: block;
   margin: 0 auto;
+  max-width: 100%;
+  min-width: 200px;
 }
 .flex1 {
   display: flex;
